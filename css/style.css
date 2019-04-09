@@ -31,10 +31,12 @@ section{margin-bottom:50px;border:0!important; outline: none!important;}
 .content_acceder{width:100%;margin:60px 0 0 0;padding:0;text-align:center;}
 .content_acceder a{display: inline-table;background:#ffd204;color:#fff;text-transform:uppercase;font-size:38px;padding:5px 40px;font-weight:normal;}
 .content_acceder a:hover{text-decoration:none;}
-#telecharger_appli{width:100%;padding:60px 0 190px 0;background:url(../images/back_appli_v2.png) no-repeat left top;background-size: cover;}
+#telecharger_appli{width:100%;padding:60px 0 60px 0;background:url(../images/back_appli_v2.png) no-repeat left top;background-size: cover;position:relative;}
+.oeil_gauche{position:absolute;left:0;top:0;}
+.oeil_gauche img{max-width:294px;}
 .content_down_appli{margin-top:30px;position:relative;}
-.content_oeil{position:absolute;top:0;right:0;}
-.content_oeil img{max-width:180px;}
+.content_oeil{position:absolute;top:-60px;right:0;}
+.content_oeil img{max-width:140px;}
 #telecharger_appli .titre{background:none;padding:0;font-size:22px;font-weight:bold;position:relative; z-index:100;}
 .content_down_app_telecharger_appli{width:100%;margin:0;padding:0;text-align:center;}
 .content_down_app_telecharger_appli a{display:inline-block;margin:0 10px;position:relative; z-index:100;}
@@ -86,3 +88,7 @@ section#dernier_zafer{margin-bottom:0;}
 @media screen and (max-width:767px) {
     .navbar-inverse .navbar-toggle .icon-bar{background-color: #333;}
 }
+@media screen and (max-width:640px) {
+	.content_down_app{padding-left:0;text-align:center;width:100%;}
+	.content_down_app a{margin:0 10px 20px 10px;}
+	}
