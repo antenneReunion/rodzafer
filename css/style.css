@@ -9,17 +9,17 @@ body{font-family:Arial!important;color:#000;}
 .container-fluid{padding-right:0;padding-left:0;}
 .content_rod{position:relative;margin-bottom:100px;}
 .content_rod .image_header{width:100%;height:auto;}
-.content_down_app{position:absolute;bottom:0;width:100%;text-align:left;padding-left:290px;}
+.content_down_app{position:absolute;bottom:0;/*width:100%;*/text-align:left;padding-left:140px;}
 .content_down_app a{display:inline-block;margin:0 10px;}
 .content_down_app a img{max-width:190px;height:auto;}
-.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;}
-#offre_exclusives h3{text-align:center;margin:0 0 50px 0;padding:0;font-size:18px;}
+.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;font-weight:600;}
+#offre_exclusives h3{text-align:center;margin:0 0 50px 0;padding:0;font-size:18px;font-weight:600;}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0;}
 .list_offre ul li{display: inline-block;margin:0 80px 20px 80px;max-width:200px;vertical-align:top;}
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
-.text_logo_partenaire{text-transform:uppercase;font-size:12px;color:#000;}
+.text_logo_partenaire{text-transform:uppercase;font-size:12px;color:#000;font-weight:bold;}
 section{margin-bottom:50px;border:0!important; outline: none!important;}
 #dernier_zafer img{max-width:196px;margin:0 auto;}
 .owl-prev{float:left;}
@@ -41,7 +41,7 @@ section{margin-bottom:50px;border:0!important; outline: none!important;}
 .content_down_app_telecharger_appli a img{width:100%;height:auto;max-width:150px;border:1px solid #fff;}
 .content_inner_pourquoi{text-align:center;}
 .nav>li>a{padding:5px 20px;}
-#contact{width:100%;background:url(../images/back_content_contact.png) no-repeat left center; background-size:cover;color:#fff;padding-bottom:0;}
+#contact{width:100%;background:url(../images/back_content_contact.png) no-repeat left center; background-size:cover;color:#fff;padding-bottom:0;margin-bottom:0;}
 #contact h2{text-align:center;font-size:22px;text-transform:uppercase; letter-spacing:3px;}
 #contact .col-md-6{padding-left:0;padding-right:0;}
 .content_contact{background:url(../images/pinceau_contact.png) no-repeat left top;padding-left:60px;}
@@ -51,9 +51,9 @@ section{margin-bottom:50px;border:0!important; outline: none!important;}
 .inner_content_contact_right h3{margin:0;padding:0;font-size:18px;text-transform:uppercase;}
 .inner_content_contact_right p{font-size:27px;font-weight:normal;}
 .content_contact_top{padding:0 20px 0 0;border-bottom:3px solid #ffd204;margin:0 0 50px 0;display:table;}
-#Suivez_nous h2{text-align:center;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;font-weight:bold;}
+#Suivez_nous h2{text-align:center;font-size:25px;text-transform:uppercase;margin:0 0 20px 0;line-height: normal; letter-spacing:3px;font-weight:bold;}
 #Suivez_nous .list_reseaux_socio{text-align:center;}
-#Suivez_nous .list_reseaux_socio a{display:inline-block;margin:0 20px;}
+#Suivez_nous .list_reseaux_socio a{display:inline-block;margin:0 10px;}
 #foot_top{background:#22afa9;padding:30px 0;margin:0;}
 #foot_top .list_lien_footer{text-align:center;}
 #foot_top .list_lien_footer ul{list-style-type:none;margin:0;}
@@ -78,6 +78,7 @@ section#dernier_zafer{margin-bottom:0;}
     font-weight: bold;
 }
 .sticky{position:fixed;width:100%;top:0;z-index:100;}
+#Suivez_nous{margin:0;padding:25px 0;}
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:126px;}
     .top #myNavbar{margin-top:0;}
