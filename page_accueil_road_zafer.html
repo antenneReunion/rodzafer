@@ -4,6 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
@@ -15,7 +16,7 @@
 </head>
 
 <body>
-  <div class="top">
+  <div class="top" id="home">
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -30,16 +31,16 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li>
+            <li class="list_menu">
               <a href="#offre_exclusives">Mes offres</a>
             </li>
-            <li>
+            <li class="list_menu">
               <a href="#dernier_zafer">Mes zafer</a>
             </li>
-            <li>
+            <li class="list_menu">
               <a href="#pourquoi_rod_zafer">Pourquoi Rodzafer ?</a>
             </li>
-            <li>
+            <li class="list_menu">
               <a href="#telecharger_appli" class="download">Télécharger l’application</a>
             </li>
           </ul>
@@ -52,12 +53,14 @@
       <div class="content_rod">
         <img src="images/image_header_rod.jpg" class="img-responsive image_header">
         <div class="content_down_app">
+          <div class="container">
           <a href="#">
             <img src="images/image_google_play.jpg">
           </a>
           <a href="#">
             <img src="images/image_app_store.jpg">
           </a>
+        </div>
         </div>
       </div>
     </div>
@@ -202,6 +205,13 @@
 <section id="foot_bottom">
 <div class="container"><p>Copyright all rights reserved : <a href="#">rodzafer.fr</a></p></div>
 </section>
+<div id="stop" class="scrollTop">
+    <span>
+      <a href="">
+        <i class="fa fa-angle-up"></i>
+      </a>
+    </span>
+  </div>
   <script>
     $(document).ready(function () {
       $('.owl-carousel').owlCarousel({
@@ -227,6 +237,154 @@
       })
     })
   </script>
+  <script>
+      $(document).ready(function () {
+        /******************************
+            BOTTOM SCROLL TOP BUTTON
+         ******************************/
+  
+        // declare variable
+        var scrollTop = $(".scrollTop");
+  
+        $(window).scroll(function () {
+          // declare variable
+          var topPos = $(this).scrollTop();
+  
+          // if user scrolls down - show scroll to top button
+          if (topPos > 100) {
+            $(scrollTop).css("opacity", "1");
+  
+          } else {
+            $(scrollTop).css("opacity", "0");
+          }
+  
+        }); // scroll END
+  
+        //Click event to scroll to top
+        $(scrollTop).click(function () {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 800);
+          return false;
+  
+        }); // click() scroll top EMD
+  
+        /*************************************
+          LEFT MENU SMOOTH SCROLL ANIMATION
+         *************************************/
+        // declare variable
+        var h1 = $("#h1").position();
+        var h2 = $("#h2").position();
+        var h3 = $("#h3").position();
+  
+        $('.link1').click(function () {
+          $('html, body').animate({
+            scrollTop: h1.top
+          }, 500);
+          return false;
+  
+        }); // left menu link2 click() scroll END
+  
+        $('.link2').click(function () {
+          $('html, body').animate({
+            scrollTop: h2.top
+          }, 500);
+          return false;
+  
+        }); // left menu link2 click() scroll END
+  
+        $('.link3').click(function () {
+          $('html, body').animate({
+            scrollTop: h3.top
+          }, 500);
+          return false;
+  
+        }); // left menu link3 click() scroll END
+  
+      }); // ready() END
+    </script>
+     <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () {
+          myFunction()
+        };
+    
+        // Get the header
+        var header = document.getElementById("home");
+    
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+    
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
+      <script>
+          // Get the container element
+          var btnContainer = document.getElementById("myNavbar");
+      
+          // Get all buttons with class="btn" inside the container
+          var btns = btnContainer.getElementsByClassName("list_menu");
+      
+          // Loop through the buttons and add the active class to the current/clicked button
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+              var current = document.getElementsByClassName("active");
+      
+              // If there's no active class
+              if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+              }
+      
+              // Add the active class to the current/clicked button
+              this.className += " active";
+            });
+          }
+        </script>
+         <script>
+            $(document).ready(function () {
+              $('a[href*="#"]')
+                // Remove links that don't actually link to anything
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function (event) {
+                  // On-page links
+                  if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname
+                  ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                      // Only prevent default if animation is actually gonna happen
+                      event.preventDefault();
+                      $('html, body').animate({
+                        scrollTop: target.offset().top
+                      }, 1000, function () {
+                        // Callback after animation
+                        // Must change focus!
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) { // Checking if the target was focused
+                          return false;
+                        } else {
+                          $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                          $target.focus(); // Set focus again
+                        };
+                      });
+                    }
+                  }
+                });
+        
+            });
+          </script>
 </body>
 
 </html>
