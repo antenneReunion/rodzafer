@@ -1,4 +1,4 @@
-body{font-family:Arial!important;}
+body{font-family:Arial!important;color:#000;}
 *{ box-sizing:border-box;}
 .top .navbar{border:0;border-radius: 0;margin-bottom:0;min-height:94px;background:#fff;}
 .top #myNavbar{margin-top:25px;}
@@ -9,10 +9,10 @@ body{font-family:Arial!important;}
 .container-fluid{padding-right:0;padding-left:0;}
 .content_rod{position:relative;margin-bottom:100px;}
 .content_rod .image_header{width:100%;height:auto;}
-.content_down_app{position:absolute;bottom:0;width:100%;text-align:center;}
+.content_down_app{position:absolute;bottom:0;width:100%;text-align:left;padding-left:290px;}
 .content_down_app a{display:inline-block;margin:0 10px;}
 .content_down_app a img{max-width:190px;height:auto;}
-.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:25px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;}
+.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;}
 #offre_exclusives h3{text-align:center;margin:0 0 50px 0;padding:0;font-size:18px;}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0;}
@@ -31,16 +31,18 @@ section{margin-bottom:50px;border:0!important; outline: none!important;}
 .content_acceder{width:100%;margin:60px 0 0 0;padding:0;text-align:center;}
 .content_acceder a{display: inline-table;background:#ffd204;color:#fff;text-transform:uppercase;font-size:38px;padding:5px 40px;font-weight:normal;}
 .content_acceder a:hover{text-decoration:none;}
-#telecharger_appli{width:100%;padding:60px 0 190px 0;background:url(../images/back_appli.png) no-repeat left top;background-size: cover;}
-.content_down_appli{margin-top:30px;}
-#telecharger_appli .titre{background:none;padding:0;font-size:25px;}
+#telecharger_appli{width:100%;padding:60px 0 190px 0;background:url(../images/back_appli_v2.png) no-repeat left top;background-size: cover;}
+.content_down_appli{margin-top:30px;position:relative;}
+.content_oeil{position:absolute;top:0;right:0;}
+.content_oeil img{max-width:180px;}
+#telecharger_appli .titre{background:none;padding:0;font-size:22px;font-weight:bold;position:relative; z-index:100;}
 .content_down_app_telecharger_appli{width:100%;margin:0;padding:0;text-align:center;}
-.content_down_app_telecharger_appli a{display:inline-block;margin:0 10px;}
+.content_down_app_telecharger_appli a{display:inline-block;margin:0 10px;position:relative; z-index:100;}
 .content_down_app_telecharger_appli a img{width:100%;height:auto;max-width:150px;border:1px solid #fff;}
 .content_inner_pourquoi{text-align:center;}
 .nav>li>a{padding:5px 20px;}
-#contact{width:100%;background:url(../images/back_content_contact.png) no-repeat left center; background-size:cover;color:#fff;padding-bottom:30px;}
-#contact h2{text-align:center;font-size:25px;text-transform:uppercase; letter-spacing:3px;}
+#contact{width:100%;background:url(../images/back_content_contact.png) no-repeat left center; background-size:cover;color:#fff;padding-bottom:0;}
+#contact h2{text-align:center;font-size:22px;text-transform:uppercase; letter-spacing:3px;}
 #contact .col-md-6{padding-left:0;padding-right:0;}
 .content_contact{background:url(../images/pinceau_contact.png) no-repeat left top;padding-left:60px;}
 .inner_content_contact h3{margin:0;padding:0;font-size:18px;text-transform:uppercase;}
@@ -49,19 +51,19 @@ section{margin-bottom:50px;border:0!important; outline: none!important;}
 .inner_content_contact_right h3{margin:0;padding:0;font-size:18px;text-transform:uppercase;}
 .inner_content_contact_right p{font-size:27px;font-weight:normal;}
 .content_contact_top{padding:0 20px 0 0;border-bottom:3px solid #ffd204;margin:0 0 50px 0;display:table;}
-#Suivez_nous h2{text-align:center;font-size:25px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;}
+#Suivez_nous h2{text-align:center;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;font-weight:bold;}
 #Suivez_nous .list_reseaux_socio{text-align:center;}
 #Suivez_nous .list_reseaux_socio a{display:inline-block;margin:0 20px;}
 #foot_top{background:#22afa9;padding:30px 0;margin:0;}
 #foot_top .list_lien_footer{text-align:center;}
 #foot_top .list_lien_footer ul{list-style-type:none;margin:0;}
 #foot_top .list_lien_footer ul li{display:inline-block;margin:0 30px 0 30px;}
-#foot_top .list_lien_footer ul li a{text-transform:uppercase;font-size:14px;color:#000;}
+#foot_top .list_lien_footer ul li a{text-transform:uppercase;font-size:14px;color:#000;font-weight:bold;}
 #foot_bottom{background:#000;color:#fff;padding:10px 0;margin:0;}
-#foot_bottom p{margin:0;font-size:12px;text-transform:uppercase;text-align:center; line-height:none;}
+#foot_bottom p{margin:0;font-size:12px;text-transform:uppercase;text-align:center; line-height:none;font-weight:bold;}
 #foot_bottom p a{color:#fff;}
 .content_savoire_plus{text-align:center;}
-.content_savoire_plus a{display:inline-block;background:#ffd204;padding:5px 30px;color:#000;text-decoration:none;font-size:14px;text-transform:uppercase;font-weight:bold;}
+.content_savoire_plus a{display:inline-block;background:#ffd204;padding:5px 30px;color:#000;text-decoration:none;font-size:18px;text-transform:uppercase;font-weight:bold;}
 .bg_gris{background:#f6f6f6;padding:30px 0;}
 .owl-theme .owl-nav [class*=owl-]:hover{background:none;cursor:pointer;color:#000;border:0;}
 .owl-theme .owl-nav [class*=owl-]:focus{border:0;outline:none;}
