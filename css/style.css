@@ -85,13 +85,15 @@ section#dernier_zafer{margin-bottom:0;}
 #Suivez_nous{margin:0;padding:25px 0;}
 #offre_exclusives,#dernier_zafer{padding-top:100px;}
 #pourquoi_rod_zafer{padding-top:100px;margin-bottom:50px;}
-.owl-item .item a{position:relative;z-index:100;}
+.owl-item .item a{position:relative;z-index:100;display:block;}
 /*.content_header_une{background:url(../images/back_content_header_une.jpg) repeat-x left top;}*/
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{ text-indent:-9000px;width:17px;height:32px;}
 .owl-carousel .owl-nav button.owl-prev span{background:url(../images/back_fleche_prev.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .owl-carousel .owl-nav button.owl-next span{background:url(../images/back_fleche_next.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .navbar-brand{margin-left:15px!important;}
 #dernier_zafer .modal-body{text-align:center;}
+#dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;}
+.owl-carousel .item{padding:0 25px;}
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:126px;}
     .top #myNavbar{margin-top:20px;}
