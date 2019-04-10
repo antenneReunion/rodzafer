@@ -113,11 +113,11 @@ section#dernier_zafer{margin-bottom:0;}
 	.head_rod{margin-top:100px;}
 	.oeil_gauche{left:-15px;}
 	.content_contact_top{padding:0;}
+	.oeil_gauche,.content_oeil{display:none;}
 }
 @media screen and (max-width:640px) {
 	.content_down_app{padding-left:0;text-align:left;bottom:-50px;}
 	.content_down_app a{margin:0 10px 20px 10px;}
-	.oeil_gauche,.content_oeil{display:none;}
 	}
 @media screen and (max-width:480px) {
 	.content_down_app_telecharger_appli a{margin-left:5px;margin-right:5px;margin-bottom:10px;}
