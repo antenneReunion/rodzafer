@@ -9,13 +9,13 @@ body{font-family:Arial!important;color:#000;}
 .container-fluid{padding-right:0;padding-left:0;}
 .content_rod{position:relative;/*margin-bottom:100px;*/}
 .content_rod .image_header{width:100%;height:auto;}
-.content_down_app{position:absolute;bottom:0;/*width:100%;*/text-align:left;padding-left:140px;}
+.content_down_app{position:absolute;bottom:0;/*width:100%;*/text-align:left;padding-left:128px;}
 .content_down_app a{display:inline-block;margin:0 10px;}
 .content_down_app a img{max-width:190px;height:auto;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 50px 0;padding:0;font-size:18px;font-weight:600;}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
-.list_offre ul{list-style-type:none;text-align:center ;margin:0;}
+.list_offre ul{list-style-type:none;text-align:center ;margin:0;padding:0;}
 .list_offre ul li{display: inline-block;margin:0 80px 20px 80px;max-width:200px;vertical-align:top;}
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
@@ -34,7 +34,7 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 .content_acceder a{display: inline-table;background:#ffd204;color:#fff;text-transform:uppercase;font-size:38px;padding:5px 40px;font-weight:normal;}
 .content_acceder a:hover{text-decoration:none;}
 #telecharger_appli{width:100%;padding:60px 0 60px 0;background:url(../images/back_appli_v2.png) no-repeat left top;background-size: cover;position:relative;}
-.oeil_gauche{position:absolute;left:0;top:0;}
+.oeil_gauche{position:absolute;left:0;top:-90px;}
 .oeil_gauche img{max-width:294px;}
 .content_down_appli{margin-top:30px;position:relative;}
 .content_oeil{position:absolute;top:-60px;right:0;}
@@ -60,7 +60,7 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 #Suivez_nous .list_reseaux_socio a{display:inline-block;margin:0 10px;}
 #foot_top{background:#22afa9;padding:30px 0;margin:0;}
 #foot_top .list_lien_footer{text-align:center;}
-#foot_top .list_lien_footer ul{list-style-type:none;margin:0;}
+#foot_top .list_lien_footer ul{list-style-type:none;margin:0;padding:0;}
 #foot_top .list_lien_footer ul li{display:inline-block;margin:0 30px 0 30px;}
 #foot_top .list_lien_footer ul li a{text-transform:uppercase;font-size:14px;color:#000;font-weight:bold;}
 #foot_bottom{background:#000;color:#fff;padding:10px 0;margin:0;}
@@ -111,8 +111,15 @@ section#dernier_zafer{margin-bottom:0;}
 	.top #myNavbar{margin-top:0;border-top:1px solid #000;}
 	.content_down_app a img{max-width:130px;}
 	.head_rod{margin-top:100px;}
+	.oeil_gauche{left:-15px;}
+	.content_contact_top{padding:0;}
 }
 @media screen and (max-width:640px) {
 	.content_down_app{padding-left:0;text-align:left;bottom:-50px;}
 	.content_down_app a{margin:0 10px 20px 10px;}
+	.oeil_gauche,.content_oeil{display:none;}
+	}
+@media screen and (max-width:480px) {
+	.content_down_app_telecharger_appli a{margin-left:5px;margin-right:5px;margin-bottom:10px;}
+	.content_down_app_telecharger_appli a img{max-width:130px;}
 	}
