@@ -107,7 +107,7 @@ section#dernier_zafer{margin-bottom:0;}
 	.top .navbar{width:100%;position:fixed;top:0;z-index:100;}
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border:0;}
 	.nav.navbar-nav.navbar-right{/*border-top:1px solid #000;*/}
-	.navbar-inverse .navbar-nav>li>a.download{margin-left:20px;}
+	.navbar-inverse .navbar-nav>li>a.download{margin-left:10px;}
 	.navbar-header{background:#fff;min-height:70px;}
 	.top #myNavbar{background-color: rgba(255, 255, 255, 0.8);}
 	.top #myNavbar{margin-top:0;border-top:1px solid #000;}
@@ -116,6 +116,7 @@ section#dernier_zafer{margin-bottom:0;}
 	.oeil_gauche{left:-15px;}
 	.content_contact_top{padding:0;}
 	.oeil_gauche,.content_oeil{display:none;}
+	.nav>li{padding:10px 0;}
 }
 @media screen and (max-width:640px) {
 	.content_down_app{padding-left:0;text-align:left;bottom:-50px;}
