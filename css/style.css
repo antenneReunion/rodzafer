@@ -91,6 +91,7 @@ section#dernier_zafer{margin-bottom:0;}
 .owl-carousel .owl-nav button.owl-prev span{background:url(../images/back_fleche_prev.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .owl-carousel .owl-nav button.owl-next span{background:url(../images/back_fleche_next.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .navbar-brand{margin-left:15px!important;}
+#dernier_zafer .modal-body{text-align:center;}
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:126px;}
     .top #myNavbar{margin-top:20px;}
