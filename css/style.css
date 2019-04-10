@@ -15,7 +15,7 @@ body{font-family:Arial!important;color:#000;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 50px 0;line-height: normal; letter-spacing:3px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 50px 0;padding:0;font-size:18px;font-weight:600;}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
-.list_offre ul{list-style-type:none;text-align:center ;margin:0;padding:0;}
+.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
 .list_offre ul li{display: inline-block;margin:0 80px 20px 80px;max-width:200px;vertical-align:top;}
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
