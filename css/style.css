@@ -91,7 +91,7 @@ section#dernier_zafer{margin-bottom:0;}
 .owl-carousel .owl-nav button.owl-next span{background:url(../images/back_fleche_next.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .navbar-brand{margin-left:15px!important;}
 #dernier_zafer .modal-body{text-align:center;}
-#dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;max-width:350px;}
+#dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;max-width:420px;}
 .owl-carousel .item{padding:0 25px;}
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:126px;}
