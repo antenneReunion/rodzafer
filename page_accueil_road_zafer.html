@@ -535,7 +535,7 @@
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
-$(".area").on('click', function(e) {
+$(".area").on('mousemove', function(e) {
 
   $("#" + $(this).attr("TooltipId")).css({
     /*top: e.pageY,
@@ -550,9 +550,9 @@ $(".area").on('click', function(e) {
   $(".tooltip-arrow").css("border-" + a + "-color", $(this).attr("TooltipBackround"));
 })
 
-/*$(".area").on('mouseleave', function(e) {
+$(".area").on('mouseleave', function(e) {
   $("#" + $(this).attr("TooltipId")).tooltip('hide')
-});*/
+});
        </script>
   
 
