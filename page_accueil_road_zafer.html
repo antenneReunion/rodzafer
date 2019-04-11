@@ -249,11 +249,11 @@
       <h2 class="titre">Pourquoi utiliser rodzafer ?</h2>
       <div class="content_inner_pourquoi">
         <div class="col1 col-md-4">
-          <div class="top_content_pourquoi">
+          <div class="top_content_pourquoi" id="top_left">
             <img src="images/image_col_1_top.png" class="img-responsive area" TooltipBackround="black" TooltipId="area-tooltip1">
             <i id="area-tooltip1" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h3>Toutes les bonnes zafer sur votre application</h3>" data-animation="false" data-trigger="manual">&#160;</i>
           </div>
-          <div class="bottom_content_pourquoi">
+          <div class="bottom_content_pourquoi" id="bottom_left">
             <img src="images/image_col_1_bottom.png" class="img-responsive area" TooltipBackround="black" TooltipId="area-tooltip2">
             <i id="area-tooltip2" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h3>AUTOUR DE VOUS</h3><br><p>Retrouvez toutes vos zafers autour de vous en temps réel</p>" data-animation="false" data-trigger="manual">&#160;</i>
           </div>
@@ -263,11 +263,11 @@
           
         </div>
         <div class="col3 col-md-4">
-          <div class="top_content_pourquoi">
+          <div class="top_content_pourquoi" id="top_right">
             <img src="images/image_col_3_top.png" class="img-responsive area" TooltipBackround="black" TooltipId="area-tooltip3">
-            <i id="area-tooltip3" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h3>Mes zafer</h3><br><p>Sauvegarder toutes vos zafers sur l’application</p>" data-animation="false" data-trigger="manual">&#160;</i>
+            <i id="area-tooltip3" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h3>Mes zafer</h3><br><p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, </p>" data-animation="false" data-trigger="manual">&#160;</i>
           </div>
-          <div class="bottom_content_pourquoi">
+          <div class="bottom_content_pourquoi" id="bottom_right">
             <img src="images/image_col_3_bottom.png" class="img-responsive area"  TooltipId="area-tooltip4">
             <i id="area-tooltip4" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h3>Alertes</h3><br><p>Soyez alertés des nouveautés par notification</p>" data-animation="false" data-trigger="manual">&#160;</i>
           </div>
@@ -536,10 +536,18 @@
     $('[data-toggle="tooltip"]').tooltip();
 });
 $(".area").on('mousemove', function(e) {
+  var id_parent = $(this).parent().attr('id');
+  var class_parent = $(this).parent().attr('class');
+  var position = $("#"+id_parent).position();
+  var top = 0;
+  if (class_parent.trim() == 'top_content_pourquoi' ){
+    top = (id_parent == 'top_left') ? -60 : -100;
+  } else if (class_parent.trim() == 'bottom_content_pourquoi'){
+    top = (id_parent == 'bottom_left') ? -80 : -60;
+  }
 
   $("#" + $(this).attr("TooltipId")).css({
-    /*top: e.pageY,
-    left: e.pageX*/
+    top: top
   });
 
   $("#" + $(this).attr("TooltipId")).tooltip('show');
