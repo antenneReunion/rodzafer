@@ -41,7 +41,7 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 #telecharger_appli{width:100%;padding:40px 0 0 0;background:#f6f6f6;}
 #telecharger_appli .telecharger_appli_inner{padding:60px 0 60px 0;background:url(../images/back_appli_v2.png) no-repeat left top;background-size: cover;position:relative;}
 .oeil_gauche{position:absolute;left:0;top:-90px;}
-.oeil_gauche img{max-width:294px;}
+.oeil_gauche img{max-width:242px;}
 .content_down_appli{margin-top:30px;position:relative;}
 .content_oeil{position:absolute;top:-60px;right:0;}
 .content_oeil img{max-width:140px;}
