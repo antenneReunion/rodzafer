@@ -17,7 +17,7 @@ body{font-family:Arial!important;color:#000;}
 .content_down_app{position:absolute;bottom:0;/*width:100%;*/text-align:left;padding-left:205px;}
 .content_down_app a{display:inline-block;margin:0 10px;}
 .content_down_app a img{max-width:190px;height:auto;}
-.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;/*font-weight:600;*/}
+.titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 98px 0;padding:0;font-size:19px;/*font-weight:600;*/}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
