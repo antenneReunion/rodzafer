@@ -2,7 +2,7 @@ body{font-family:Arial!important;color:#000;}
 *{ box-sizing:border-box;}
 .top .navbar{border:0;border-radius: 0;margin-bottom:0;min-height:94px;background:#fff;}
 .top.sticky .navbar{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);}
-.top #myNavbar{margin-top:26px;}
+.top #myNavbar{margin-top:30px;}
 .navbar-right{margin-right:0!important;}
 .navbar-inverse .navbar-nav>li{margin:0 10px;}
 .navbar-inverse .navbar-nav>li:last-child{margin:0;}
@@ -105,7 +105,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{text-indent:-9000px;width:17px;height:32px;}
 .owl-carousel .owl-nav button.owl-prev span{background:url(../images/back_fleche_prev.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .owl-carousel .owl-nav button.owl-next span{background:url(../images/back_fleche_next.jpg) no-repeat left top;width:17px;height:32px;display:block;}
-.navbar-brand{margin-left:15px!important;padding:21px 0;}
+.navbar-brand{margin-left:15px!important;padding:31px 0 0 0;}
 #dernier_zafer .modal-body{text-align:center;}
 #dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;max-width:420px;}
 .owl-carousel .item{padding:0 25px;}
@@ -257,11 +257,13 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 #confiance .owl-prev,#confiance .owl-next{top:20%;}
 .couv_dernier_affaire{background:#f6f6f6;padding-top:37px;}
 @media screen and (max-width: 1024px) {
-    .top .logo{max-width:126px;}
+    .top .logo{max-width:100px;}
     .top #myNavbar{margin-top:20px;}
 	.nav>li>a{padding-left:10px;padding-right:10px;}
 	.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
 	.tooltip-inner:after{left:20%!important;}
+	.list_offre ul li{max-width:280px;margin:0 15px 20px 15px;}
+	.content_down_app a img{max-width:130px;}
 }
 @media screen and (max-width: 991px) {
 	.col1.col-md-4{width:100%;}
@@ -302,7 +304,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.top_content_pourquoi{margin-top:50px;}
 	.col1 .bottom_content_pourquoi{margin-top:40px;}
 	.list_offre ul li{width:100%;max-width:inherit;margin:0 0 20px 0;}
-	.list_offre ul li img{width:100%;height:auto;max-width:270px;margin:0 auto;}
+	.list_offre ul li img{width:100%;height:auto;max-width:250px;margin:0 auto;}
 	.tooltip-inner:after{left:50%!important;}
 	}
 @media screen and (max-width:480px) {
