@@ -2,7 +2,7 @@ body{font-family:Arial!important;color:#000;}
 *{ box-sizing:border-box;}
 .top .navbar{border:0;border-radius: 0;margin-bottom:0;min-height:94px;background:#fff;}
 .top.sticky .navbar{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);}
-.top #myNavbar{margin-top:20px;}
+.top #myNavbar{margin-top:26px;}
 .navbar-right{margin-right:0!important;}
 .navbar-inverse .navbar-nav>li{margin:0 10px;}
 .navbar-inverse .navbar-nav>li:last-child{margin:0;}
@@ -20,8 +20,8 @@ body{font-family:Arial!important;color:#000;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 98px 0;padding:0;font-size:19px;/*font-weight:600;*/}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
-.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
-.list_offre ul li{display: inline-block;margin:0 20px 0 20px;max-width:280px;vertical-align:top;}
+.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px -112px;padding:0;}
+.list_offre ul li{display: inline-block;margin:0 30px 0 30px;max-width:280px;vertical-align:top;}
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
 .text_logo_partenaire{text-transform:uppercase;font-size:16px;color:#8d8d8d;font-weight:bold;}
@@ -105,7 +105,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{text-indent:-9000px;width:17px;height:32px;}
 .owl-carousel .owl-nav button.owl-prev span{background:url(../images/back_fleche_prev.jpg) no-repeat left top;width:17px;height:32px;display:block;}
 .owl-carousel .owl-nav button.owl-next span{background:url(../images/back_fleche_next.jpg) no-repeat left top;width:17px;height:32px;display:block;}
-.navbar-brand{margin-left:15px!important;}
+.navbar-brand{margin-left:15px!important;padding:21px 0;}
 #dernier_zafer .modal-body{text-align:center;}
 #dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;max-width:420px;}
 .owl-carousel .item{padding:0 25px;}
@@ -247,7 +247,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .tooltip-inner p{margin:0 0 10px 0;padding:0 10px;line-height:normal;font-size:14px;}
 .content_inner_pourquoi .col1 img:hover,.content_inner_pourquoi .col3 img:hover{cursor:pointer;}
 .tooltip-inner:before{content:"";position:relative;background:#09abb0;width:100%;height:8px;display:block;border-radius:80% 80% 0 0;top:-15px;}
-.tooltip-inner:after{content:"";position:relative;width:8px;height:8px;display:block;top:18px;border-left: 8px solid transparent!important;border-right: 8px solid transparent!important;border-top: 8px solid #000!important;left:20%;}
+.tooltip-inner:after{content:"";position:relative;width:8px;height:8px;display:block;top:18px;border-left: 8px solid transparent!important;border-right: 8px solid transparent!important;border-top: 8px solid #000!important;left:30%;}
+#top_left .tooltip-inner:after{left:25%;}
+#bottom_left .tooltip-inner:after{left:32%;}
 .owl-carousel#slide_confiance .owl-item img{width:auto;margin:0 auto;}
 #confiance{padding-top:60px;}
 .owl-carousel .owl-dots.disabled{display:none;}
@@ -258,6 +260,8 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
     .top .logo{max-width:126px;}
     .top #myNavbar{margin-top:20px;}
 	.nav>li>a{padding-left:10px;padding-right:10px;}
+	.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
+	.tooltip-inner:after{left:20%!important;}
 }
 @media screen and (max-width: 991px) {
 	.col1.col-md-4{width:100%;}
@@ -299,6 +303,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.col1 .bottom_content_pourquoi{margin-top:40px;}
 	.list_offre ul li{width:100%;max-width:inherit;margin:0 0 20px 0;}
 	.list_offre ul li img{width:100%;height:auto;max-width:270px;margin:0 auto;}
+	.tooltip-inner:after{left:50%!important;}
 	}
 @media screen and (max-width:480px) {
 	.content_down_app_telecharger_appli a{margin-left:5px;margin-right:5px;margin-bottom:10px;}
