@@ -3,7 +3,7 @@ body{font-family:Arial!important;color:#000;}
 .top .navbar{border:0;border-radius: 0;margin-bottom:0;min-height:94px;background:#fff;}
 .top.sticky .navbar{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);}
 .top #myNavbar{margin-top:28px;}
-.navbar-nav{margin:0 0 0 60px;}
+.navbar-nav{margin:0 0 0 13px;}
 .navbar-right{margin-right:0!important;}
 .navbar-inverse .navbar-nav>li{margin:0 10px;}
 .navbar-inverse .navbar-nav>li:last-child{margin:0;}
@@ -16,9 +16,9 @@ body{font-family:Arial!important;color:#000;}
 .container-fluid{padding-right:0;padding-left:0;}
 .content_rod{position:relative;/*margin-bottom:100px;*/}
 .content_rod .image_header{width:100%;height:auto;}
-.content_down_app{position:absolute;bottom:23px;/*width:100%;*/text-align:left;padding-left:205px;}
+.content_down_app{position:absolute;bottom:0;/*width:100%;*/text-align:left;padding-left:205px;}
 .content_down_app a{display:inline-block;margin:0 6px;}
-.content_down_app a img{max-width:190px;height:auto;}
+.content_down_app a img{max-width:178px;height:auto;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 98px 0;padding:0;font-size:19px;/*font-weight:600;*/}
 #dernier_zafer h3{text-align:center;margin:0 0 30px 0;padding:0;font-size:19px;/*font-weight:600;*/}
@@ -267,8 +267,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .content_head_top{width:100%;position:relative;height:462px;}
 .content_head_top_left{position:absolute;left:15px;}
 .content_head_top_right{position:absolute;right:150px;top:15px;}
+.navbar-header .logo{margin-left:47px;}
 @media screen and (max-width: 1920px) {
-	.content_down_app a img{max-width:150px;}
+	.content_down_app a img{max-width:178px;}
 	}
 @media screen and (max-width: 1280px) {
 	.image_header{display:none;}
@@ -283,7 +284,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
 	.tooltip-inner:after{left:20%!important;}
 	.list_offre ul li{max-width:280px;margin:0 15px 20px 15px;}
-	.content_down_app a img{max-width:130px;}
+	.content_down_app a img{max-width:178px;}
 	.image_header{display:none;}
 	.image_header_mobile{display:block;}
 	.top #myNavbar{margin-top:20px;}
