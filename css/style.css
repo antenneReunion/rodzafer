@@ -9,7 +9,8 @@ body{font-family:Arial!important;color:#000;}
 .navbar-inverse .navbar-nav>li:last-child{margin:0;}
 .navbar-inverse .navbar-nav>li>a{color:#000;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;font-size:16px;}
 .navbar-inverse .navbar-nav>li>a.download{background:#ffd204;display:table;font-size:16px;font-weight:bold;padding:7px 20px;box-shadow:4px 4px 0 #dfdfdf;margin-top:-3px;}
-.navbar-inverse .navbar-nav>.active>a.download,.navbar-inverse .navbar-nav>li>a.download:hover,a.download,.navbar-inverse .navbar-nav>li>a.download:focus{color:#fff;background:#079ca0;}
+.navbar-inverse .navbar-nav>.active>a.download,.navbar-inverse .navbar-nav>li>a.download:focus{background:#ffd204;color:#000;}
+.navbar-inverse .navbar-nav>li>a.download:hover,a.download{color:#fff;background:#079ca0;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background:none;color:#079ca0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;}
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{color:#09a2a7;}
 .container-fluid{padding-right:0;padding-left:0;}
@@ -20,6 +21,7 @@ body{font-family:Arial!important;color:#000;}
 .content_down_app a img{max-width:190px;height:auto;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 98px 0;padding:0;font-size:19px;/*font-weight:600;*/}
+#dernier_zafer h3{text-align:center;margin:0 0 30px 0;padding:0;font-size:19px;/*font-weight:600;*/}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0 0 88px -112px;padding:0;}
 .list_offre ul li{display: inline-block;margin:0 30px 0 30px;max-width:280px;vertical-align:top;}
@@ -261,6 +263,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header{display:block;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
+@media screen and (max-width: 1600px) {
+	.content_down_app a img{max-width:150px;}
+	}
 @media screen and (max-width: 1280px) {
 	.image_header{display:none;}
 	.image_header_mobile{display:block;}
