@@ -46,8 +46,8 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 .oeil_gauche{position:absolute;left:0;top:-55px;}
 .oeil_gauche img{max-width:242px;}
 .content_down_appli{margin-top:30px;position:relative;}
-.content_oeil{position:absolute;top:-60px;right:0;}
-.content_oeil img{max-width:140px;}
+.content_oeil{position:absolute;top:0;right:0;}
+.content_oeil img{max-width:97px;}
 #telecharger_appli .titre{background:none;padding:0;font-size:22px;font-weight:bold;position:relative; z-index:100;}
 .content_down_app_telecharger_appli{width:100%;margin:0;padding:0;text-align:center;}
 .content_down_app_telecharger_appli a{display:inline-block;margin:0 10px;position:relative; z-index:100;}
