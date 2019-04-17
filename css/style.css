@@ -263,7 +263,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header{display:block;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:150px;}
 	}
 @media screen and (max-width: 1280px) {
