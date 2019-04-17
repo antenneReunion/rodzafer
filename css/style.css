@@ -17,7 +17,7 @@ body{font-family:Arial!important;color:#000;}
 .content_rod{position:relative;/*margin-bottom:100px;*/}
 .content_rod .image_header{width:100%;height:auto;}
 .content_down_app{position:absolute;bottom:23px;/*width:100%;*/text-align:left;padding-left:205px;}
-.content_down_app a{display:inline-block;margin:0 10px;}
+.content_down_app a{display:inline-block;margin:0 6px;}
 .content_down_app a img{max-width:190px;height:auto;}
 .titre{text-align:center;background: url("../images/back_titre.jpg") no-repeat center bottom;padding-bottom:20px;font-size:22px;text-transform:uppercase;margin:0 0 35px 0;line-height: normal; letter-spacing:5px;font-weight:600;}
 #offre_exclusives h3{text-align:center;margin:0 0 98px 0;padding:0;font-size:19px;/*font-weight:600;*/}
@@ -263,14 +263,18 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header{display:block;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
+.content_header_une{background:url(../images/back_header.jpg) repeat-x left top;min-height:462px;}
+.content_head_top{width:100%;position:relative;height:462px;}
+.content_head_top_left{position:absolute;left:15px;}
+.content_head_top_right{position:absolute;right:150px;top:15px;}
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:150px;}
 	}
 @media screen and (max-width: 1280px) {
 	.image_header{display:none;}
-	.image_header_mobile{display:block;}
 	.image_header_mobile{width:100%;height:auto;}
 	.navbar-nav{margin:0;float:right;}
+	.content_head_top_right{right:0;}
 }
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:100px;}
@@ -283,6 +287,13 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.image_header{display:none;}
 	.image_header_mobile{display:block;}
 	.top #myNavbar{margin-top:20px;}
+	.content_head_top_left,.content_head_top_right{display:none;}
+	.content_header_une{background:none;height:auto;min-height:inherit;}
+	.image_header_mobile{display:block;}
+	.content_down_app{bottom:0;}
+	.content_header_une .container{margin:0;padding:0;width:100%;}
+	.navbar.navbar-inverse .container{width:100%;}
+	.content_head_top{height:auto;}
 }
 @media screen and (max-width: 991px) {
 	.col1.col-md-4{width:100%;}
@@ -294,7 +305,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.col1 .bottom_content_pourquoi{margin-top:50px;}
 	.navbar-inverse .navbar-nav>li{margin:0 5px;}
 	.navbar-inverse .navbar-nav>li>a{font-size:12px;}
-	
+	.content_head_top_left img{max-width:450px;height:auto;}
+	.content_head_top_right img{max-width:300px;}
+	.content_head_top_left{top:100px;}
 }
 @media screen and (max-width:768px) {
 	.navbar-inverse .navbar-nav>li{margin:0 5px;}
@@ -319,9 +332,11 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.nav>li{padding:10px 0;}
 	.navbar-brand{padding-top:26px;}
 	.navbar-nav{float:left;}
+	.content_head_top_left img{max-width:380px;height:auto;}
+	.content_head_top_right img{max-width:290px;}
 }
 @media screen and (max-width:640px) {
-	.content_down_app{padding-left:0;text-align:left;bottom:-50px;}
+	.content_down_app{padding-left:0;text-align:left;bottom:-70px;}
 	.content_down_app a{margin:0 10px 20px 10px;}
 	.col1.col-md-4{width:100%;}
 	.col2.col-md-4{width:100%;}
