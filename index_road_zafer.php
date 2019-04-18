@@ -513,7 +513,7 @@ include "class/sendMail.php";
                            placeholder="Phone"
                            name="phone" required="required">
                 </fieldset>
-                <fieldset><label class="vide">&nbsp;</label>
+                <fieldset><label>Message :</label>
                     <textarea cols="100" rows="10" name="description"
                               placeholder="Bonjour, Je souhaiterais partager avec vous mes remarques sur votre application Rodzafer"></textarea>
                 </fieldset>
