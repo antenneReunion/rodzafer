@@ -12,8 +12,8 @@ if (isset($_POST["action"]) && $_POST["action"] == "ok") {
 $mail = new \PHPMailer\PHPMailer\PHPMailer();
     $mail->isHTML(true);
 
-    $mail->From = "noreply@rodzafer.fr";
-    $mail->FromName = $_POST["nom"] . " " . $_POST["prenom"];
+    $mail->setFrom("noreply@rodzafer.fr");
+    //$mail->FromName = $_POST["nom"] . " " . $_POST["prenom"];
     $mail->addAddress("geraldo.raobelinarisoa@antennereunion.fr");     // Add a recipient
 
     $elm = "";
