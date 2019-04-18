@@ -514,7 +514,7 @@ include "class/sendMail.php";
             <?php } ?>
 
             <?php if ($messageError != "") { ?>
-                <p><span><?php echo $messageError; ?></span></p>
+                <p><span class="msg-error"><?php echo $messageError; ?></span></p>
             <?php } ?>
             <form id="frmContact" method="POST" action="">
                 <fieldset><label>Nom <span class="obligatoire">*</span> :</label>
