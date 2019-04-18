@@ -295,6 +295,8 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .content_head_top_right{position:absolute;right:150px;top:15px;}
 .navbar-header .logo{margin-left:47px;}
 .obligatoire{color:#f00;}
+.msg-success,.msg-error{width: 100%;text-align: center;display: table;margin: 0 0 20px 0;font-size: 20px;color: #f00;font-weight: bold;}
+
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:178px;}
 	}
