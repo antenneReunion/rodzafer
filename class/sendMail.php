@@ -24,7 +24,13 @@ $mail = new \PHPMailer\PHPMailer\PHPMailer();
     $elm .= "<p>Email: " . $_POST["email"] . "</p>";
 
     $elm .= "<p>Tel: " . $_POST["phone"] . "</p>";
-    $elm .= "<p>Message: " . $_POST["description"] . "</p>";
+$desc = "";
+    if ($_POST["description"] == "") {
+        $desc = "Bonjour, Je souhaiterais partager avec vous mes remarques sur votre application Rodzafer.";
+    } else {
+        $desc = $_POST["description"];
+    }
+    $elm .= "<p>Message: " . $desc . "</p>";
 
 
     $mail->Subject = "Rodzafer contact";
