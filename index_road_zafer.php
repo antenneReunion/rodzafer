@@ -506,16 +506,16 @@ include "class/sendMail.php";
                            name="prenom" required="required"></fieldset>
                 <fieldset><label>Email <span class="obligatoire">*</span> :</label>
                     <input type="email"
-                           placeholder="Email"
+                           placeholder="Adresse Email"
                            name="email" required="required"></fieldset>
                 <fieldset><label>Numéro de téléphone <span class="obligatoire">*</span> :</label>
                     <input type="text"
-                           placeholder="Phone"
+                           placeholder="Téléphone"
                            name="phone" required="required">
                 </fieldset>
                 <fieldset><label>Message :</label>
                     <textarea cols="100" rows="10" name="description"
-                              placeholder="Bonjour, Je souhaiterais partager avec vous mes remarques sur votre application Rodzafer"></textarea>
+                              placeholder="Bonjour, Je souhaiterais partager avec vous mes remarques sur votre application Rodzafer."></textarea>
                 </fieldset>
                 <fieldset><label class="vide">&nbsp;</label>
                     <input type="hidden" name="action" value="ok">
