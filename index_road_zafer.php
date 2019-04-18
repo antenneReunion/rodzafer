@@ -146,6 +146,13 @@ include "class/sendMail.php";
         <div class="bg_gris">
           <div class="container">
             <div class="owl-carousel owl-theme" id="dernier-affaire">
+            <div class="item">
+                    <img src="images/catalogue_ford.jpg">
+                    <span class="content_text_list_catalogue">
+                      <span>
+                        <a href="#telecharger_appli">Téléchargez Rodzafer</a> pour accéder au catalogue</span>
+                    </span>
+                  </div>
               <div class="item">
                 <img src="images/catalogue_Gold-Center.jpg">
                 <span class="content_text_list_catalogue">
@@ -169,13 +176,6 @@ include "class/sendMail.php";
               </div>
               <div class="item">
                 <img src="images/catalogue_FIAT.jpg">
-                <span class="content_text_list_catalogue">
-                  <span>
-                    <a href="#telecharger_appli">Téléchargez Rodzafer</a> pour accéder au catalogue</span>
-                </span>
-              </div>
-              <div class="item">
-                <img src="images/catalogue_OceanOr.jpg">
                 <span class="content_text_list_catalogue">
                   <span>
                     <a href="#telecharger_appli">Téléchargez Rodzafer</a> pour accéder au catalogue</span>
@@ -402,22 +402,12 @@ include "class/sendMail.php";
           </div>
           <div class="item">
             <a href="#" target="_blank">
-              <img src="images/LOGO-RAVATE-BRICO-ok-aout2018.jpg">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#" target="_blank">
               <img src="images/LEADER-PRICE.jpg">
             </a>
           </div>
           <div class="item">
             <a href="#" target="_blank">
               <img src="images/lachocolaterie.jpg">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#" target="_blank">
-              <img src="images/kiabi.jpg">
             </a>
           </div>
           <div class="item">
@@ -477,22 +467,12 @@ include "class/sendMail.php";
           </div>
           <div class="item">
             <a href="#" target="_blank">
-              <img src="images/casernes.jpg">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#" target="_blank">
               <img src="images/carrefour.jpg">
             </a>
           </div>
           <div class="item">
             <a href="#" target="_blank">
               <img src="images/cara.jpg">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#" target="_blank">
-              <img src="images/BureauVallee-logo.jpg">
             </a>
           </div>
           <div class="item">
