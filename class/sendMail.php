@@ -1,7 +1,7 @@
 <?php
-require("/PHPMailer/src/PHPMailer.php");
-require("/PHPMailer/src/SMTP.php");
-require("/PHPMailer/src/Exception.php");
+require(realpath(dirname(__FILE__))."/PHPMailer/src/PHPMailer.php");
+require(realpath(dirname(__FILE__))."/PHPMailer/src/SMTP.php");
+require(realpath(dirname(__FILE__))."/PHPMailer/src/Exception.php");
 
 
 $messageError = "";
