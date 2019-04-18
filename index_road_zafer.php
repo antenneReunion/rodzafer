@@ -480,7 +480,21 @@ include "class/sendMail.php";
               <img src="images/BureauVallee-logo.jpg">
             </a>
           </div>
-
+          <div class="item">
+              <a href="#" target="_blank">
+                <img src="images/REP.jpg">
+              </a>
+            </div>
+            <div class="item">
+                <a href="#" target="_blank">
+                  <img src="images/LOGO-Sun7.jpg">
+                </a>
+              </div>
+              <div class="item">
+                  <a href="#" target="_blank">
+                    <img src="images/FORD.jpg">
+                  </a>
+                </div>
         </div>
       </div>
     </div>
