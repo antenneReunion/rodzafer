@@ -25,6 +25,13 @@ body{font-family:Arial!important;color:#000;}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0 0 88px -112px;padding:0;}
 .list_offre ul li{display: inline-block;margin:0 30px 0 30px;max-width:280px;vertical-align:top;}
+.list_offre ul li a,#dernier-affaire .item a{position:relative;width:100%;height:100%;display:block;}
+.content_text_list_offre{position:absolute;width:100%;height:100%;background-color: rgba(0, 0, 0, 0.9);bottom:0;left:0;height:0;transition: all 0.3s linear 0s;}
+#dernier-affaire .item .content_text_list_catalogue{position:absolute;width:100%;height:100%;background-color: rgba(0, 0, 0, 0.9);bottom:0;left:0;height:0;transition: all 0.3s linear 0s;}
+.list_offre ul li a:hover .content_text_list_offre,#dernier-affaire .item a:hover .content_text_list_catalogue{height:100%;} 
+.content_text_list_offre span{color:#fff;font-size:20px;height:100%;vertical-align:middle;display:flex;justify-content: center; flex-direction: column;padding:20px;text-align:center;}
+#dernier-affaire .item .content_text_list_catalogue span{color:#fff;font-size:20px;height:100%;vertical-align:middle;display:flex;justify-content: center; flex-direction: column;padding:20px;text-align:center;}
+
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
 .text_logo_partenaire{text-transform:uppercase;font-size:16px;color:#8d8d8d;font-weight:bold;}
