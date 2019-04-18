@@ -30,7 +30,7 @@ $mail = new \PHPMailer\PHPMailer\PHPMailer();
     $mail->Subject = "Rodzafer contact";
     $mail->Body    = $elm;
 
-    if(!$mail->send()) {
+    if($mail->send()) {
         $messageSuccess = "Votre message a été bien envoyé.";
     } else {
         $messageError = "Votre message n'a pas pu être envoyé.";
