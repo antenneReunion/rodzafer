@@ -357,7 +357,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.oeil_gauche{left:-15px;}
 	.content_contact_top{padding:0;}
 	.oeil_gauche,.content_oeil{display:block;}
-	.oeil_gauche img{max-width:100px;}
+	.oeil_gauche img{max-width:70px;}
 	.content_oeil img{max-width:50px;}
 	.nav>li{padding:10px 0;}
 	.navbar-brand{padding-top:26px;}
