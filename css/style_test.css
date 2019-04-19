@@ -33,7 +33,7 @@ body{font-family:Arial!important;color:#000;}
 #dernier-affaire .item:hover .content_text_list_catalogue span{color:#8d8d8d;font-size:20px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;/*display: flex;*/
    align-items: center;display:block;margin-top:35%;}
 .content_text_list_offre span,.content_text_list_catalogue span{display:none;background:#dddddd!important;}
-.content_text_list_offre span a,.content_text_list_catalogue span a{display:block;color:#8d8d8d;font-weight:bold;text-decoration:none;}
+.content_text_list_offre span a,.content_text_list_catalogue span a{display:block;color:#4d4d4d;font-weight:bold;text-decoration:none;}
 
 .list_offre ul li a:hover{text-decoration:none;}
 .text_logo_partenaire{display:block;}
