@@ -1,0 +1,7 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/android/?utm_source=rodzafer&utm_medium=button&utm_campaign=android$ https://play.google.com/store/apps/details?id=com.antennereunion.rodzafer [R=302]
+RewriteRule ^/apple/?utm_source=rodzafer&utm_medium=button&utm_campaign=apple https://itunes.apple.com/us/app/rodzafer/id1450170376?mt=8&ign-mpt=uo%3D2 [R=302]
