@@ -1,5 +1,5 @@
 RewriteEngine On
 Options +FollowSymLinks
 
-Redirect /apple/ https://itunes.apple.com/us/app/rodzafer/id1450170376?mt=8&ign-mpt=uo%3D2
+Redirect /ios/ https://itunes.apple.com/us/app/rodzafer/id1450170376?mt=8&ign-mpt=uo%3D2
 Redirect /android/ https://play.google.com/store/apps/details?id=com.antennereunion.rodzafer
