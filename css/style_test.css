@@ -28,7 +28,7 @@ body{font-family:Arial!important;color:#000;}
 .content_text_list_offre{position:absolute;width:65.60%;bottom:33%;left:34.40%;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;display:block;}
 #dernier-affaire .item .content_text_list_catalogue{position:absolute;width:100%;background-color: rgba(221, 221, 221, 0.6);bottom:0;left:0;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;margin:0 10%;/*display:none;*/max-width:197px;left:48px;}
 #dernier-affaire .item:hover .content_text_list_catalogue{height:100%;} 
-.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;left:34.40%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:16%;}
+.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;left:34.40%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:16%; }
 .list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;height:100%;left:32.40%;bottom:16%;}
 .list_offre ul li .content_image_liste_offre:hover .content_text_list_offre span{color:#fff;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;padding:20px;/*display: flex;*/
    align-items: center;width:100%;display:block;margin-top:50%;}
