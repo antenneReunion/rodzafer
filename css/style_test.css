@@ -378,7 +378,10 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	#dernier-affaire .item .content_text_list_catalogue{left:47px;}
 	.content_header_une{margin-top:0;}
 }
-@media screen and (max-width:667px) {#dernier-affaire .item .content_text_list_catalogue{left:27px;}}
+@media screen and (max-width:761px) {
+#dernier-affaire .item{position:relative;margin:0 auto;padding:0;max-width:196px;}
+#dernier-affaire .item .content_text_list_catalogue{left:0;margin:0;padding:0;}
+	}
 @media screen and (max-width:640px) {
 	.content_down_app{padding-left:0;text-align:center;bottom:-70px;width:100%;}
 	.content_down_app a{margin:0 10px 20px 10px;}
@@ -396,18 +399,20 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.content_contact_inner form input{width:100%;}
 	.content_contact_inner form textarea{width:100%;}
 	.content_contact_inner form label.vide{padding:0;}
-	#dernier-affaire .item .content_text_list_catalogue{left:22px;}
+	#dernier-affaire .item .content_text_list_catalogue{/*left:22px;*/left:0;}
 	.content_text_list_offre{left:35%;width:65%;}
 	.list_offre ul li:last-child .content_image_liste_offre .content_text_list_offre{width:68%;left:32%;}
 	.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{left:35%;width:65%;}
 	.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:68%;left:32%;}
 	}
+@media screen and (max-width:600px) {}
 @media screen and (max-width:480px) {
 	.content_down_app_telecharger_appli a{margin-left:5px;margin-right:5px;margin-bottom:10px;}
 	.content_down_app_telecharger_appli a img{max-width:130px;}
 	/*.list_offre ul li img{max-width:180px;}*/
 	.tooltip.right {left:0!important;}
-	#dernier-affaire .item .content_text_list_catalogue{left:0;width:80%;max-width:inherit;}
+	#dernier-affaire .item{position:relative;margin:0 auto;padding:0;max-width:196px;}
+	#dernier-affaire .item .content_text_list_catalogue{left:0;margin:0;padding:0;}
 	}
 	@media screen and (max-width:375px) {
 		.list_offre ul li{padding-right:80px;}
