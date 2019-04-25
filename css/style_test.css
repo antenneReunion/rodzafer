@@ -24,14 +24,16 @@ body{font-family:Arial!important;color:#000;}
 #dernier_zafer h3{text-align:center;margin:0 0 30px 0;padding:0;font-size:19px;/*font-weight:600;*/}
 .logo_partenaire{margin:0 0 20px 0;padding:0;display:block;}
 .list_offre ul{list-style-type:none;text-align:center ;margin:0 0 88px -112px;padding:0;}
-.list_offre ul li{display: inline-block;margin:0 30px 0 30px;max-width:280px;vertical-align:top;position:relative;overflow:hidden;}
-.content_text_list_offre{position:absolute;width:100%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:0;left:0;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;display:block;}
-#dernier-affaire .item .content_text_list_catalogue{position:absolute;width:100%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:0;left:0;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;margin:0 10%;/*display:none;*/max-width:197px;left:48px;}
-.list_offre ul li:hover .content_text_list_offre,#dernier-affaire .item:hover .content_text_list_catalogue{height:100%;} 
-.list_offre ul li:hover .content_text_list_offre span{color:#fff;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;padding:20px;/*display: flex;*/
-   align-items: center;width:100%;display:block;margin-top:50%;}
+.list_offre ul li{display: inline-block;margin:0 30px 0 30px;max-width:280px;vertical-align:top;/*position:relative;*/overflow:hidden;}
+.content_text_list_offre{position:absolute;width:65.60%;bottom:33%;left:34.40%;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;display:block;}
+#dernier-affaire .item .content_text_list_catalogue{position:absolute;width:100%;background-color: rgba(221, 221, 221, 0.6);bottom:0;left:0;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;margin:0 10%;/*display:none;*/max-width:197px;left:48px;}
+#dernier-affaire .item:hover .content_text_list_catalogue{height:100%;}
+.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;left:34.40%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:16%; }
+.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;height:100%;left:32.40%;bottom:16%;}
+.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre span{color:#fff;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;padding:20px;/*display: flex;*/
+	align-items: center;width:100%;display:block;margin-top:50%;}
 #dernier-affaire .item:hover .content_text_list_catalogue span{color:#8d8d8d;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;/*display: flex;*/
-   align-items: center;display:block;margin-top:35%;}
+	align-items: center;display:block;margin-top:35%;}
 .content_text_list_offre span,.content_text_list_catalogue span{display:none;background:#dddddd!important;}
 .content_text_list_offre span a,.content_text_list_catalogue span a{display:block;color:#4d4d4d;font-weight:bold;text-decoration:none;}
 #dernier-affaire .item .content_text_list_catalogue i{font-style:normal;font-size:21px;}
@@ -75,18 +77,18 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 .content_contact_inner form input:focus,.content_contact_inner textarea:focus{outline:none;}
 .content_contact_inner form input[type="submit"]{display:table;width:auto;background:#00b1b5;color:#fff;padding:10px 30px;}
 ::-webkit-input-placeholder {
-   color:#8d8d8d;
+	color:#8d8d8d;
 }
 :-moz-placeholder { /* Firefox 18- */
-   color:#8d8d8d;
+	color:#8d8d8d;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color:#8d8d8d; 
+	color:#8d8d8d;
 }
 
-:-ms-input-placeholder {  
-   color:#8d8d8d;
+:-ms-input-placeholder {
+	color:#8d8d8d;
 }
 #Suivez_nous h2{text-align:center;font-size:25px;text-transform:uppercase;margin:0 0 20px 0;line-height: normal; letter-spacing:3px;font-weight:bold;}
 #Suivez_nous .list_reseaux_socio{text-align:center;margin:10px 0 0 0;display:none;}
@@ -116,13 +118,13 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 .owl-carousel{margin-bottom:50px;}
 section#dernier_zafer{margin-bottom:0;}
 section#dernier_zafer .bg_gris{padding-bottom:0;}
-.scrollTop{position: fixed;right: 10%;bottom: 10px;background:#22afa9;padding:0;opacity: 0;transition: all 0.4s ease-in-out 0s;width:50px;height:50px;border-radius:50%;cursor:pointer;text-align:center;border:1px solid #fff;}
+.scrollTop{position: fixed;right: 10%;bottom: 10px;background:#22afa9;padding:0;opacity: 0;transition: all 0.4s ease-in-out 0s;width:50px;height:50px;border-radius:50%;cursor:pointer;text-align:center;border:1px solid #fff;z-index:100;}
 .scrollTop:hover{background: #2bcdd0;}
 .scrollTop a {
-    font-size: 35px;
-    color: #fff;
-    line-height: 50px;
-    font-weight: bold;
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+	font-weight: bold;
 }
 .sticky{position:fixed;width:100%;top:0;z-index:1000;}
 #Suivez_nous{margin:0;padding:40px 0;}
@@ -197,7 +199,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	margin-left: 5px;
 	text-indent: 0;
 	/*background-color: #000;*/
-	 background-color: rgba(0, 0, 0, 0.9)!important;
+	background-color: rgba(0, 0, 0, 0.9)!important;
 	border-radius: 4px;
 }
 .tooltip-arrow {
@@ -235,10 +237,10 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	/*border-width: 5px 5px 5px 0;
 	border-right-color: #000!important;*/
 	border-left: 8px solid transparent!important;
-    border-right: 8px solid transparent!important;
-    border-top: 8px solid #000!important;
+	border-right: 8px solid transparent!important;
+	border-top: 8px solid #000!important;
 	display:none;
-	
+
 }
 .tooltip.left .tooltip-arrow {
 	top: 50%;
@@ -269,8 +271,8 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	border-bottom-color: #000000;
 }
 .area-tooltip {
-  position: absolute;
-  visibility: hidden;
+	position: absolute;
+	visibility: hidden;
 }
 .tooltip-inner{font-family:Arial, Helvetica, sans-serif;padding:10px 0 10px 0;}
 .tooltip-inner h3{font-size:14px;text-transform: uppercase;font-weight:bold;line-height:normal;margin:0 0 10px 0;padding:0 10px;}
@@ -296,10 +298,11 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .navbar-header .logo{margin-left:47px;}
 .obligatoire{color:#f00;}
 .msg-success,.msg-error{width: 100%;text-align: center;display: table;margin: 0 0 20px 0;font-size: 20px;color: #f00;font-weight: bold;}
-
+.content_image_liste_offre{position:relative;height:100%;display:block;}
+.content_text_foot_offre{margin-top:20px;display:block;}
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:178px;}
-	}
+}
 @media screen and (max-width: 1280px) {
 	.image_header{display:none;}
 	.image_header_mobile{width:100%;height:auto;}
@@ -310,8 +313,8 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	#dernier-affaire .item .content_text_list_catalogue{left:22px;}
 }
 @media screen and (max-width: 1024px) {
-    .top .logo{max-width:100px;}
-    /*.top #myNavbar{margin-top:20px;}*/
+	.top .logo{max-width:100px;}
+	/*.top #myNavbar{margin-top:20px;}*/
 	.nav>li>a{padding-left:10px;padding-right:10px;}
 	.list_offre ul{list-style-type:none;text-align:center ;margin:0 0 30px 0;padding:0;}
 	.tooltip-inner:after{left:20%!important;}
@@ -348,7 +351,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.navbar-inverse .navbar-nav>li{margin:0 5px;}
 	.navbar-inverse .navbar-nav>li>a{font-size:12px;padding:0 5px;}}
 @media screen and (max-width:767px) {
-    .navbar-inverse .navbar-toggle .icon-bar{background-color: #333;}
+	.navbar-inverse .navbar-toggle .icon-bar{background-color: #333;}
 	.top .navbar{min-height:70px;background:none;}
 	.navbar-inverse .navbar-toggle{margin-top:20px;}
 	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{background:transparent;}
@@ -375,7 +378,10 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	#dernier-affaire .item .content_text_list_catalogue{left:47px;}
 	.content_header_une{margin-top:0;}
 }
-@media screen and (max-width:667px) {#dernier-affaire .item .content_text_list_catalogue{left:27px;}}
+@media screen and (max-width:761px) {
+	#dernier-affaire .item{position:relative;margin:0 auto;padding:0;max-width:196px;}
+	#dernier-affaire .item .content_text_list_catalogue{left:0;margin:0;padding:0;}
+}
 @media screen and (max-width:640px) {
 	.content_down_app{padding-left:0;text-align:center;bottom:-70px;width:100%;}
 	.content_down_app a{margin:0 10px 20px 10px;}
@@ -393,15 +399,21 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.content_contact_inner form input{width:100%;}
 	.content_contact_inner form textarea{width:100%;}
 	.content_contact_inner form label.vide{padding:0;}
-	#dernier-affaire .item .content_text_list_catalogue{left:22px;}
-	}
+	#dernier-affaire .item .content_text_list_catalogue{/*left:22px;*/left:0;}
+	.content_text_list_offre{left:35%;width:65%;}
+	.list_offre ul li:last-child .content_image_liste_offre .content_text_list_offre{width:68%;left:32%;}
+	.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{left:35%;width:65%;}
+	.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:68%;left:32%;}
+}
+@media screen and (max-width:600px) {}
 @media screen and (max-width:480px) {
 	.content_down_app_telecharger_appli a{margin-left:5px;margin-right:5px;margin-bottom:10px;}
 	.content_down_app_telecharger_appli a img{max-width:130px;}
 	/*.list_offre ul li img{max-width:180px;}*/
 	.tooltip.right {left:0!important;}
-	#dernier-affaire .item .content_text_list_catalogue{left:0;width:80%;max-width:inherit;}
-	}
-	@media screen and (max-width:375px) {
-		.list_offre ul li{padding-right:80px;}
-		}
+	#dernier-affaire .item{position:relative;margin:0 auto;padding:0;max-width:196px;}
+	#dernier-affaire .item .content_text_list_catalogue{left:0;margin:0;padding:0;}
+}
+@media screen and (max-width:375px) {
+	.list_offre ul li{padding-right:80px;}
+}
