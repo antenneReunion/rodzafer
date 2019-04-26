@@ -167,56 +167,6 @@
               <div class="container">
                   <div class="owl-carousel owl-theme" id="dernier-affaire">
                       <div class="item">
-                        <img src="images/PEUGEOT_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
-                        <img src="images/HABITAT_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
-                        <img src="images/FOIR-FOUILLE_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
-                        <img src="images/DECATHLON_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
-                        <img src="images/DARTY_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-        
-                      <div class="item">
-                        <img src="images/CARREFOUR_ARTS-CULINAIRE_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
-                        <img src="images/catalogue_Comptoir-au-surgele_catalogue.jpg">
-                        <span class="content_text_list_catalogue">
-                          <span>
-                              <a href="#telecharger_appli">Téléchargez Rodzafer <br> pour accéder au catalogue</a></span>
-                        </span>
-                      </div>
-                      <div class="item">
                           <img src="images/catalogue_citroen.jpg">
                           <span class="content_text_list_catalogue">
                             <span>
@@ -957,6 +907,84 @@
         this.className += " active";
 
         btnContainer.classList.remove('in');
+      });
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function (event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function () {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
+            }
+          }
+        });
+
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    $(".area").on('mousemove', function (e) {
+      var id_parent = $(this).parent().attr('id');
+      var class_parent = $(this).parent().attr('class');
+      var position = $("#" + id_parent).position();
+      var top = 0;
+      if (class_parent.trim() == 'top_content_pourquoi') {
+        top = (id_parent == 'top_left') ? -100 : -100;
+        top = (id_parent == 'top_right') ? -90 : -100;
+      } else if (class_parent.trim() == 'bottom_content_pourquoi') {
+        top = (id_parent == 'bottom_left') ? -90 : -90;
+      }
+      $("#" + $(this).attr("TooltipId")).css({
+        top: top
+      });
+
+      $("#" + $(this).attr("TooltipId")).tooltip('show');
+      $(".tooltip-inner").css({
+        "background-color": $(this).attr("TooltipBackround")
+      });
+      var a = ($("#" + $(this).attr("TooltipId")).attr("data-placement") != "") ? $("#" + $(this).attr("TooltipId"))
+        .attr("data-placement") : "top";
+      $(".tooltip-arrow").css("border-" + a + "-color", $(this).attr("TooltipBackround"));
+    })
+
+    $(".area").on('mouseleave', function (e) {
+      $("#" + $(this).attr("TooltipId")).tooltip('hide')
+    });
+  </script>
+</body>
+</html>
+
+st.remove('in');
       });
     }
   </script>
