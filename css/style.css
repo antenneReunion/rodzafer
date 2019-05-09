@@ -28,10 +28,10 @@ body{font-family:Arial!important;color:#000;}
 .content_text_list_offre{position:absolute;width:65.60%;bottom:33%;left:34.40%;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;display:block;}
 #dernier-affaire .item .content_text_list_catalogue{position:absolute;width:100%;background-color: rgba(221, 221, 221, 0.6);bottom:0;left:0;height:0;webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;margin:0 10%;/*display:none;*/max-width:197px;left:48px;}
 #dernier-affaire .item:hover .content_text_list_catalogue{height:100%;} 
-.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;left:34.40%;height:100%;background-color: rgba(221, 221, 221, 0.6);bottom:16%; }
-.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:67.60%;height:100%;left:32.40%;bottom:16%;}
+.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{/*width:67.60%;*/width:65.60%;left:34.40%;height:83%;background-color: rgba(221, 221, 221, 0.6);bottom:17%;border-radius:5px;}
+.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:66.60%;height:84%;left:32.40%;bottom:16%;}
 .list_offre ul li .content_image_liste_offre:hover .content_text_list_offre span{color:#fff;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;padding:20px;/*display: flex;*/
-   align-items: center;width:100%;display:block;margin-top:50%;}
+   align-items: center;width:100%;display:block;/*margin-top:50%;*/margin-top:25%;}
 #dernier-affaire .item:hover .content_text_list_catalogue span{color:#8d8d8d;font-size:18px;/*height:100%;*/vertical-align:middle;padding:20px;text-align:center;/*display: flex;*/
    align-items: center;display:block;margin-top:35%;}
 .content_text_list_offre span,.content_text_list_catalogue span{display:none;background:#dddddd!important;}
@@ -95,10 +95,11 @@ section{/*margin-bottom:50px;*/border:0!important; outline: none!important;}
 #Suivez_nous .list_reseaux_socio a{display:inline-block;margin:0 10px;color:#000;font-size:25px;}
 #Suivez_nous .list_reseaux_socio a:hover{color:#27afa8;}
 .content_suit_inner{border-top:1px solid #000;border-bottom:1px solid #000;padding:15px 0;text-align:center;}
-.content_suit_inner p{font-size:16px;margin:0 0 10px 0;padding:0;font-weight:600;}
-.content_suit_inner p i{font-size:30px;margin-left:5px;position:relative;top:5px;}
-.content_suit_inner p span{color:#27afa8;}
-.content_suit_inner p a{color:#27afa8;text-decoration:none;}
+.content_suit_inner p,.content_suit_inner .content_suit_inner_in{font-size:16px;margin:0 0 10px 0;padding:0;font-weight:600;}
+.content_suit_inner p i,.content_suit_inner .content_suit_inner_in i{font-size:30px;margin-left:5px;position:relative;top:5px;}
+.content_suit_inner p span,.content_suit_inner .content_suit_inner_in span{color:#27afa8;}
+.content_suit_inner p a,.content_suit_inner .content_suit_inner_in a{color:#27afa8;text-decoration:none;}
+.content_suit_inner p a,.content_suit_inner .content_suit_inner_in h4{display:inline-block;margin:0;padding:0;font-size:16px;font-weight:600;}
 #foot_top{background:#22afa9;padding:25px 0;margin:0;}
 #foot_top .list_lien_footer{text-align:center;}
 #foot_top .list_lien_footer ul{list-style-type:none;margin:0;padding:0;}
@@ -300,6 +301,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .msg-success,.msg-error{width: 100%;text-align: center;display: table;margin: 0 0 20px 0;font-size: 20px;color: #f00;font-weight: bold;}
 .content_image_liste_offre{position:relative;height:100%;display:block;}
 .content_text_foot_offre{margin-top:20px;display:block;}
+
+/*modif balise hn*/
+.content_logo{margin:0;padding:0;}
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:178px;}
 	}
@@ -402,7 +406,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	#dernier-affaire .item .content_text_list_catalogue{/*left:22px;*/left:0;}
 	.content_text_list_offre{left:35%;width:65%;}
 	.list_offre ul li:last-child .content_image_liste_offre .content_text_list_offre{width:68%;left:32%;}
-	.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{left:35%;width:65%;}
+	.list_offre ul li .content_image_liste_offre:hover .content_text_list_offre{left:34%;width:66%;}
 	.list_offre ul li:last-child .content_image_liste_offre:hover .content_text_list_offre{width:68%;left:32%;}
 	}
 @media screen and (max-width:600px) {}
