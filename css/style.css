@@ -309,7 +309,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .content_suivez_nous{display:inline-block;margin:0 0 0 6px;background:url(../images/back_suivez_nous.jpg) no-repeat left 5px;position:relative;padding:6px 0 6px 10px;}
 .content_suit_inner .content_suit_inner_in .content_suivez_nous span{color:#000;}
 .content_suivez_nous a i,.content_suivez_nous a{text-decoration:none;}
-.content_suit_inner_in .content_suivez_nous a i{font-size:20px;margin-left:4px;position:relative;top:3px;color:#fff;width:24px;height:24px;background:#2178fb;border-radius:50%;line-height:24px;padding-top:4px;}
+.content_suit_inner_in .content_suivez_nous a i{font-size:20px;margin-left:4px;position:relative;top:3px;color:#fff;width:24px;height:24px;background:#1778F3;border-radius:50%;line-height:24px;padding-top:4px;}
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:178px;}
 	}
