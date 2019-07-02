@@ -141,6 +141,13 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 #dernier_zafer .modal-body{text-align:center;}
 #dernier_zafer .modal-body  img{max-width:inherit;width:100%;height:auto;max-width:420px;}
 .owl-carousel .item{padding:0 25px;position:relative;}
+#slider.owl-carousel .item, #sliderTwo.owl-carousel .item{padding:0 0;position:relative;}
+#slider.owl-carousel .owl-nav.disabled,  #sliderTwo.owl-carousel .owl-nav.disabled{display: none;}
+#slider.owl-carousel .owl-dots,  #sliderTwo.owl-carousel .owl-dots{display: block;}
+#slider.owl-theme .owl-dots .owl-dot span, #sliderTwo.owl-carousel .owl-dots .owl-dot span{width: 16px;height: 16px;border: 1px solid #00b2b6}
+#slider.owl-theme .owl-dots .owl-dot.active span, #slider.owl-theme .owl-dots .owl-dot:hover span{background: #00b2b6;}
+#sliderTwo.owl-theme .owl-dots .owl-dot.active span, #sliderTwo.owl-theme .owl-dots .owl-dot:hover span{background: #00b2b6;}
+:focus{outline: none;}
 .top_content_pourquoi{margin-top:80px;position:relative;z-index:100;}
 .top_content_pourquoi#top_right{margin-top:93px;}
 
@@ -293,7 +300,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header{display:block;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
-.content_header_une{background:url(../images/back_header.jpg) repeat-x left top;min-height:462px;margin-top:95px;}
+.content_header_une{/*background:url(../images/back_header.jpg) repeat-x left top*/;min-height:462px;margin-top:95px;}
 .content_head_top{width:100%;position:relative;height:462px;}
 .content_head_top_left{position:absolute;left:15px;top:60px;}
 .content_head_top_right{position:absolute;right:150px;top:15px;}
@@ -313,6 +320,9 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 @media screen and (max-width: 1920px) {
 	.content_down_app a img{max-width:178px;}
 	}
+
+@media screen and (max-width: 1440px){.content_header_une .owl-theme .owl-dots .owl-dot span{margin-top: -40px;}
+
 @media screen and (max-width: 1280px) {
 	.image_header{display:none;}
 	.image_header_mobile{width:100%;height:auto;}
@@ -322,6 +332,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 @media screen and (max-width: 1199px) {
 	#dernier-affaire .item .content_text_list_catalogue{left:22px;}
 }
+@media screen and (min-width: 1025px) {#sliderTwo{display:none}}
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:100px;}
     /*.top #myNavbar{margin-top:20px;}*/
@@ -340,6 +351,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.content_header_une .container{margin:0;padding:0;width:100%;}
 	.navbar.navbar-inverse .container{width:100%;}
 	.content_head_top{height:auto;}
+	#slider{display: none}
 }
 @media screen and (max-width: 991px) {
 	.col1.col-md-4{width:100%;}
