@@ -147,6 +147,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 #slider.owl-theme .owl-dots .owl-dot span, #sliderTwo.owl-carousel .owl-dots .owl-dot span{width: 16px;height: 16px;border: 1px solid #00b2b6}
 #slider.owl-theme .owl-dots .owl-dot.active span, #slider.owl-theme .owl-dots .owl-dot:hover span{background: #00b2b6;}
 #sliderTwo.owl-theme .owl-dots .owl-dot.active span, #sliderTwo.owl-theme .owl-dots .owl-dot:hover span{background: #00b2b6;}
+.content_header_une #sliderTwo{display:none;}
 :focus{outline: none;}
 .top_content_pourquoi{margin-top:80px;position:relative;z-index:100;}
 .top_content_pourquoi#top_right{margin-top:93px;}
@@ -332,7 +333,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 @media screen and (max-width: 1199px) {
 	#dernier-affaire .item .content_text_list_catalogue{left:22px;}
 }
-@media screen and (min-width: 1025px) {#sliderTwo{display:none}}
+
 @media screen and (max-width: 1024px) {
     .top .logo{max-width:100px;}
     /*.top #myNavbar{margin-top:20px;}*/
@@ -352,6 +353,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 	.navbar.navbar-inverse .container{width:100%;}
 	.content_head_top{height:auto;}
 	#slider{display: none}
+	.content_header_une #sliderTwo{display:block;}
 }
 @media screen and (max-width: 991px) {
 	.col1.col-md-4{width:100%;}
