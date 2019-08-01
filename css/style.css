@@ -301,7 +301,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header{display:block;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
-.content_header_une{/*background:url(../images/back_header.jpg) repeat-x left top*/;min-height:462px;margin-top:95px;}
+.content_header_une{background:url(../images/back_header.jpg) repeat-x left top;min-height:462px;margin-top:95px;}
 .content_head_top{width:100%;position:relative;height:462px;}
 .content_head_top_left{position:absolute;left:15px;top:60px;}
 .content_head_top_right{position:absolute;right:150px;top:15px;}
