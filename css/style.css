@@ -302,6 +302,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .image_header_mobile{display:none;}
 .content_confiance .titre{margin-bottom:62px;}
 .content_header_une{background:url(../images/back_header.jpg) repeat-x left top;min-height:462px;margin-top:95px;}
+.content_header_une.slide{background:none;}
 .content_head_top{width:100%;position:relative;height:462px;}
 .content_head_top_left{position:absolute;left:15px;top:60px;}
 .content_head_top_right{position:absolute;right:150px;top:15px;}
@@ -319,7 +320,7 @@ section#dernier_zafer .bg_gris{padding-bottom:0;}
 .content_suivez_nous a i,.content_suivez_nous a{text-decoration:none;}
 .content_suit_inner_in .content_suivez_nous a i{font-size:20px;margin-left:4px;position:relative;top:3px;color:#fff;width:24px;height:24px;background:#1778F3;border-radius:50%;line-height:24px;padding-top:4px;}
 @media screen and (max-width: 1920px) {
-	.content_down_app a img{max-width:178px;}
+	.content_down_app a img{max-width:178px;position: relative;z-index:1;}
 	}
 
 @media screen and (max-width: 1440px){.content_header_une .owl-theme .owl-dots .owl-dot span{margin-top: -40px;}
